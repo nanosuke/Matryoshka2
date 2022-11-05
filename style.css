@@ -25,7 +25,7 @@ body{
 }
 
 script{
-    position:absolute;
+    /*position:absolute;*/
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
@@ -34,6 +34,17 @@ script{
     text-align: center;
     z-index: 1;
 }
+
+.full {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(photos/card.png)
+      center / cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
 
 p{ /*test*/
     position:absolute;
